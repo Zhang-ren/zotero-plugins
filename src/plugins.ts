@@ -20,7 +20,7 @@ export const plugins: PluginInfoBase[] = [
         tagName: 'latest',
       },
     ],
-    tags: ['productivity，summary'],
+    tags: ['productivity，summary, tools'],
   },
   {
     repo: '018/zotcard',
