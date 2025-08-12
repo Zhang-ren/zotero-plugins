@@ -13,16 +13,6 @@ import type { PluginInfoBase } from './types.js'
 // @keep-sorted { "keys": ["repo", "tags"] }
 export const plugins: PluginInfoBase[] = [
   {
-    repo: 'Zhang-ren/Zotero-AI-Summarizer',
-    releases: [
-      {
-        targetZoteroVersion: '7',
-        tagName: 'latest',
-      },
-    ],
-    tags: ['productivity，summary, tools'],
-  },
-  {
     repo: '018/zotcard',
     releases: [
       {
@@ -946,6 +936,16 @@ export const plugins: PluginInfoBase[] = [
       },
     ],
     tags: ['others'],
+  },
+  {
+    repo: 'Zhang-ren/Zotero-AI-Summarizer',
+    releases: [
+      {
+        targetZoteroVersion: '7',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['productivity，summary, tools'],
   },
   {
     repo: 'zzlb0224/zotero-annotation-manage',
